@@ -12,23 +12,25 @@
 </head>
 
 <body>
-    <main class = "main">
-        <img src="avatar.png" alt="Zdjecie Imie i Nazwisko" />
-        <header>
-            <h1>Kamil Błaż</h1>
-            <p>stanowisko</p>
-        </header>
-        <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-            galley of type and scrambled it to make a type specimen book.
-            It was popularised in the 1960s with the release of Letraset sheets containing.
-        </p>
+    <main class="main">
+        <article class = "person">
+            <img  class ="person__picture" src="avatar.png" alt="Zdjecie Imie i Nazwisko" />
+            <header class = "person__info">
+                <h1 class = "person__name">Kamil Błaż</h1>
+                <p class = "person__position">stanowisko</p>
+            </header>
+            <p class ="person__description person__description--with-margin">
+                Lorem Ipsum is <strong class = "special"> simply dummy text of the printing  </strong> and typesetting industry.
+                Lorem Ipsum has been the industry's standard <strong class =" special">dummy text ever since </strong>the 1500s, when an unknown printer
+                took a
+                galley of type and scrambled it to make a type specimen book.
+                It was popularised in the 1960s with the release of Letraset sheets containing.
+            </p>
 
-        <p>W sieci Facebook, Github, Instagram</p>
+            <p class = "person__description">W sieci <a  class = "person__link" href = "#">Facebook</a>, <a  class = "person__link" href = "#">Github</a>, <a  class = "person__link" href = "#">Instagram</a></p>
 
 
-
+        </article>
     </main>
 
 
